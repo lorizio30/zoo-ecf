@@ -14,40 +14,38 @@ Préparation à l'environnement de travail:
 
 partie Front-end:
 
-		la partie organisationnelle:
+	la partie organisationnelle:
 
-				Les différentes pages et CSS + javascript associées: 	
-													Partie header:
-														page-accueil.html  -> accueil.css
-														Page services.html -> pages-services.css
-														Page Habitat.html  -> habitat.css
-															Territoire Savanne:
-																enzo.html     -> c-animaux-sav-e.css
-																zebra.html    -> c-animaux-sav-z.css
-																caroline.html -> c-animaux-sav-g.css
-															Territoire marais:
-																coco-mar.html -> c-animaux-mar-cr.css
-																flavi.html    -> c-animaux-mar-fl.css
-																fifi.html     -> c-animaux-mar-fi.css
-															Territoire Jungle:
-																flavio-jungle.html  -> c-animaux-jun-fl.css
-																serpico-jungle.html -> c-animaux-jun-se.css
-																dormeur-jungle.html -> c-animaux-jun-do.css
-														Onglet connexion   -> connexion.php (associé bdd -> table "membres")
-														Onglet contact	   -> formulaire.html -> st-formulaire.css + formulaire.js+ evenement.js
+		Les différentes pages et CSS + javascript associées: 	
+				Partie header:
+					page-accueil.html  -> accueil.css
+					Page services.html -> pages-services.css
+					Page Habitat.html  -> habitat.css
+						Territoire Savanne:
+							enzo.html     -> c-animaux-sav-e.css
+							zebra.html    -> c-animaux-sav-z.css
+							caroline.html -> c-animaux-sav-g.css
+						Territoire marais:
+							coco-mar.html -> c-animaux-mar-cr.css
+							flavi.html    -> c-animaux-mar-fl.css
+							fifi.html     -> c-animaux-mar-fi.css
+						Territoire Jungle:
+							flavio-jungle.html  -> c-animaux-jun-fl.css
+							serpico-jungle.html -> c-animaux-jun-se.css
+							dormeur-jungle.html -> c-animaux-jun-do.css
+					Onglet connexion   -> connexion.php (associé bdd -> table "membres")
+					Onglet contact	   -> formulaire.html -> st-formulaire.css + formulaire.js+ evenement.js
 
-													Partie footer:
-				                						mentions-legales.html    -> m-legales.css
-				                						reglement-interieur.html -> reglement-interieur.css
-				                						plan du site             -> null
-				                						Onglet contact			 -> formulaire.html -> st-formulaire.css + formulaire.js+ evenement.js
+				Partie footer:
+				        mentions-legales.html    -> m-legales.css
+				        reglement-interieur.html -> reglement-interieur.css
+				        plan du site             -> null
+				        Onglet contact		 -> formulaire.html -> st-formulaire.css + formulaire.js+ evenement.js
 
 Partie Back-end: (en cours)
 
-	Mise en place d'une base de donnée"membres" ainsi qu'un ajout utilisateur "administrateur" a l'aide de phpmyadmin:
-													Tables "espace-membres":1) veterinaire
-																			2) employé
-																			3) administrateur
-																		 
-													
-													Ajout utilisateur: "administrateur" -> role-> administrateur
+	Mise en place d'une base de donnée"membres" ainsi qu'un ajout utilisateur "administrateur" à l'aide de phpmyadmin:
+					Table ajouté: "espace-membres":	1) veterinaire
+									2) employé
+									3) administrateur
+	Ajout utilisateur: "administrateur" -> role-> administrateur
