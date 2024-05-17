@@ -1,5 +1,10 @@
 Préparation à l'environnement de travail:
 
+Pour coder en HTML et en CSS et afficher le résultat de son code, l'utilisation de visual studio code et un navigateur suffisent. 
+Toutefois, PHP et le MySQL vont s’exécuter côté serveur il est donc primordial de reproduire les même condition fournis par un serveur réel,  
+avec l'installation de 	programmes similaires et ainsi de pouvoir tester nos codes PHP et MySQL, mon choix s'est porté sur XAMPP. .
+Aussi, Visual studio code en tant q'IDE fonctionne parfaite avec XAMPP.
+
 
 
 1) IDE utilisés : visual studio  et sublim text me permettant ainsi d'accomplir l'ensemble de la partie front end.
