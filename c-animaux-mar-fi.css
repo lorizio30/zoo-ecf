@@ -1,0 +1,40 @@
+/* CARACTERISTIQUE "FIFI LE CASTOR" PAGE => ANIMAUX MARAIS*/
+
+body{
+    background-color:ivory;
+}
+.layout-central{
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-template-rows: minmax(10px, auto);
+background-color: ivory;
+
+}
+.pos-a1{
+
+    grid-column: 1/-1;
+    grid-row:1/1;
+    text-align: center;
+    border: solid 1px black;
+    background-color: rgb(0, 0, 0);
+    border-top: groove 10px black;
+    border-right: groove 10px black; 
+    border-bottom:  groove 10px black;;
+}
+
+
+.pos-a1-p{
+    grid-column: 1/7;
+    grid-row: 1/1;
+    padding: 0 100px;
+    text-align: center justify;
+    font-weight: bold;
+    font-size:200%;
+    border-top: groove 10px black;
+    border-left: groove 10px black;
+    border-bottom: groove 10px black;
+    padding-top: 20%;
+    text-decoration: underline;
+    color:white;
+    text-shadow: black 1px 0 1px;
+    }

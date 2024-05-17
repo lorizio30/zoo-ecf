@@ -1,0 +1,161 @@
+
+/*HABITAT*/
+
+.layout-central{
+        
+        display:grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(18,1fr);
+        background-color: ivory;
+        z-index: 1;
+}       
+.pos-p1{
+        
+        grid-column: 6/-1;
+        grid-row: 1/6;
+        z-index: 2;
+        padding: 3% 10%;
+        font-size: large;
+        font-weight: bold;
+        color: azure;
+        text-align: justify; 
+        box-sizing: border-box ;       
+}  
+.pos-img1{
+        grid-column: 1/-1;
+        grid-row:  1/6;
+        opacity: 100%;
+        background-attachment: fixed;
+}
+.pos-p2{
+
+        text-align: justify;
+        grid-column: 4/10;
+        grid-row:6/9;
+        margin-top:3%;
+        color:white;
+        background-color: rgb(34, 45, 15);
+        opacity: 75%;
+        border-radius: 10%;
+        border-style: groove;
+        box-sizing: border-box;
+        padding: 5% 5% 0% 5%;        
+} 
+.pos-p3{
+        grid-column: 1/-1;
+        grid-row: 9/12;
+        margin-top: 2%;
+        background-image: url(savanne.jpg);
+        background-attachment: fixed;
+        background-position: bottom;
+        text-decoration: none;
+ }
+ .img-p3-radius{
+
+        border-radius: 100%;
+        margin-top: 2%;
+        margin-left: 1%;
+        text-align: center;
+        
+}
+.pos-p3-h2 {
+
+background-color: rgb(44, 58, 20);
+color:bisque;
+text-align: center;
+
+
+}        
+ .pos-p4{
+        grid-column: 1/-1;
+        grid-row: 12/15;
+        background-image: url(marais2.jpg);
+        background-attachment: fixed;
+        background-position: bottom;
+        }
+.pos-p4-h2{
+
+        background-color: rgb(65, 85, 31);
+        color: bisque;
+        text-align: center;
+}
+
+ .pos-p5{
+        grid-column: 1/-1;
+        grid-row: 15/18;
+        background-image: url(img/jungle.jpg);
+        background-attachment: fixed;
+        background-position: bottom;
+ }
+ .pos-p5-h2{
+        background-color: darkolivegreen;
+        color: bisque;
+        text-align: center;
+
+
+ }
+
+div h1{
+        font-size: 300%;
+}
+div h2{
+        font-size: xx-large;
+}
+div p{
+        font-size:xx-large
+ 
+}
+
+@media screen and (max-width: 800px){
+
+        .pos-p2{
+
+                width:150%;
+                margin-top:-20%;
+                margin-left: -25%
+        }
+        .pos-p3{
+
+                margin-top:10%
+        }
+        
+}
+@media screen and (max-width: 412px){
+
+        .pos-p1 p {
+
+                font-size:80%
+        }
+        .pos-p1 h1{
+
+                font-size:120%
+        }
+        .pos-p2{
+
+                width:150%;
+                height:120%;
+                margin-top:0%;
+                margin-left: -30%
+        }
+        .pos-p2 h2{
+
+                font-size:80%
+        }
+        .pos-p2 p{
+                font-size:80%
+        }    
+        .pos-p3{
+                margin-top:20%;
+                width: 100%;        
+        }  
+        .pos-p3 h2{
+                font-size:100%
+        }
+        .pos-p4 h2{
+                font-size:100%
+        }
+        .pos-p5 h2{
+                font-size:100%
+        }
+       
+}

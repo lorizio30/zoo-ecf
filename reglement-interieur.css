@@ -1,0 +1,18 @@
+.main-layout {
+
+max-width: 900px;
+margin: auto;
+background-color: ivory;
+
+}
+header h1{
+
+    font-size: 280%;
+}
+.p-bold{
+
+font-weight: bold;
+text-decoration:underline;
+text-align: center;
+
+}

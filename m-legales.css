@@ -1,0 +1,26 @@
+body{
+
+background-color: ivory;
+}
+.central-layout{
+
+        max-width: 900px;
+        text-align: center justify;
+        margin: auto;
+        line-height: 180%;
+        font-size: large;
+        margin-top: 8%;
+        background-color: ivory;
+}
+
+.central-layout span{
+
+color: red;
+
+}
+.central-layout h1{
+    font-size: xxx-large;
+    text-align: justify ;
+
+
+}
