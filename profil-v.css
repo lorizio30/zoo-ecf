@@ -1,0 +1,36 @@
+body{
+
+background-color:ivory
+
+}
+.main-layout
+{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 100px repeat(12, 1fr);
+        background-color: ivory;
+
+}
+.pos-title 
+
+{
+        font-size:200%;
+        font-weight: bold ;
+        grid-column:1/-1;
+        grid-row: 1/10;
+        text-align:center;
+        padding-top:2%;
+        border:1px solid green;
+        text-shadow: 1px 1px 2px green;
+}
+.central-layout{
+
+        grid-column: 2/10;
+        grid-row: ;
+       
+
+
+
+
+
+}
