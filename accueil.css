@@ -1,0 +1,245 @@
+
+body{
+    background-color: black;
+}
+
+
+
+header{
+    background-color:bisque;
+    background-size:100% 200%;
+    box-shadow: 5px 5px 0px rgb(0, 0, 0);
+    height:100px;
+    border-radius: 5% 5% 5% 5%;
+    border: 5px groove green
+}
+h1{
+   
+    position:absolute;
+    top:0.5%;
+    left:1.5%;
+    color: green;
+}
+
+nav {
+    font-size: 120%;
+    text-align: right;
+    position: absolute;
+    right:20px;
+    top:50px;
+    margin-right:20px;
+    
+}
+ul{
+    display:flex;
+    list-style: none;
+}
+
+li{
+    
+    padding-left: 30px;
+    font-size:1.1em;
+    font-weight:bold;
+}
+
+li a{
+    text-decoration: none;
+    color:green;
+    text-transform: uppercase; 
+    
+}
+li a:hover{
+    color:rgb(0, 102, 0);
+    
+}
+section {
+
+    box-sizing: border-box;
+}
+
+.pos1 {left:1.5%;}
+
+.pos2 {left: 1.5%;
+       top:60%;
+}
+
+.pos3{ left: 1.5%;
+       top:102%;    
+}
+
+aside p{
+
+    color:rgb(255, 255, 255);
+    font-size: x-large;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.block-block{
+    
+    position:absolute;
+    right: 5%;
+    top:25%;
+    width: 60%;
+    height: 80%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5% 5% 5% 5%;
+    border: 7px groove rgb(54, 138, 54);
+    text-shadow: 2px 2px 2px 2px inset;
+    box-sizing: border-box;
+    padding: 0.5% 1.5%;
+
+}
+
+.span-block-aside{
+
+font-size: xxx-large;
+text-align:center;
+
+}
+article h1{
+
+color:white;
+font-size: xxx-large;
+}
+.pos-title{
+
+   color: white;
+   position: absolute;
+   top:140%;
+   left: 40%;
+}
+.contour{
+    border:3px solid green;
+    margin-top: 2%;
+}
+.contour2{
+border: 3px solid green;
+color:white;
+font-size: x-large;
+
+}
+
+.block-img{
+
+margin:auto;
+}
+
+.block-nav{
+    position:relative;
+    top:95%;
+    
+   
+  
+}
+.block-nav-ul{
+    position:relative;
+    right:35%;  
+}
+
+/*media queries*/
+
+/*nest hub*/
+@media screen and (max-width:1024px) {
+    .span-block-aside{
+        font-size:100%
+    }
+    .block-block{
+        margin-top:5%
+    }
+    .block-block p{
+
+        margin-top:-10%;
+        font-size:140%
+    }
+    .contour2 img{
+        width:32.5%
+    }
+    .pos-title{
+
+        margin-top:-5%
+    }
+    .block-nav{
+       width:100%;
+        margin-left:30%
+    }
+   
+}
+@media screen  and (max-width:800px) and (min-width:00px){
+
+    .block-block{
+        margin-top:-20%;
+        height:35%
+    }
+    .block-block p{
+        font-size:110%
+    }
+    .span-block-aside{
+
+        font-size: 120%
+    }
+
+}
+/*iphone 12/13 pro*/
+
+    @media screen and (max-width:430px){
+    header h1{
+        padding-left:5%
+    }
+    .pos1{
+
+        display:none
+    }
+    .pos2{
+        display: none
+    }
+    .pos3{
+        display:none
+    }
+    nav{
+        margin-top:22%;
+        margin-right: 35%;
+        font-size:100%
+    }
+    nav ul {
+        display:flex;
+        flex-direction: column;
+    }
+    .contour{
+        border:none
+    }
+    .contour2{
+         margin-top:150%;
+         border-radius: 30px;   
+    }
+    .pos-title{
+
+        display:none
+    }
+    .contour2 p{
+        margin-top:-15%;
+        font-size:90%
+    }
+    .contour2 img{
+        display:block;
+        margin-left:30%
+    }
+    .block-block{
+        margin-top:20%;
+        margin-right:0%;
+        height:40%;
+        width:90%
+    }
+    .span-block-aside{
+        font-size:180%
+    }
+    .block-block p{
+
+        font-size:90%;
+        margin-top: -5%
+    }
+    .block-nav{
+        margin-left: 20%;
+        font-size:100%
+    }
+}
